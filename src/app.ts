@@ -3,7 +3,7 @@ import cors from "cors";
 
 import { RegisterRoutes } from "../build/routes";
 
-const app = express();
+export const app = express();
 
 app.use(urlencoded({ extended: true }));
 app.use(json());
